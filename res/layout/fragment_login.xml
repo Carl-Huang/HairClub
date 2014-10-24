@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <ScrollView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/login_line" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="45dp"
+        android:background="@drawable/login_logo" />
+
+    <TextView
+        android:id="@+id/wechat_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/wechat_login"
+        android:gravity="center"
+        android:text="微信登陆"
+        android:textColor="@color/WHITE"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/qq_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/qq_login_bright"
+        android:gravity="center"
+        android:text="QQ登陆"
+        android:textColor="@color/WHITE"
+        android:textSize="20sp" />
+    
+    <TextView
+        android:id="@+id/phone_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/phone_login_bright"
+        android:gravity="center"
+        android:text="手机登陆"
+        android:textColor="@color/WHITE"
+        android:textSize="20sp" />
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom">
+        <TextView 
+            android:id="@+id/copyright"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/COPYRIGHT"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        />
+        <TextView 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/COPYRIGHT_DL"
+            android:gravity="center"
+            android:layout_below="@id/copyright"/>
+    </RelativeLayout></LinearLayout>
+</ScrollView>>
+    
+
+</LinearLayout>

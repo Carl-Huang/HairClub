@@ -1,8 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">hair</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_name">fajia</string>
+    <string name="HOMETITLE">发家·发廊提升培训专家</string>
+    <string name="COPYRIGHT">版权所有	最终解释权归英趣科技所有</string>
+    <string name="PERSONAL">我的</string>
+    <string name="COPYRIGHT_DL">Copyright ©2014-2018 gzinterest.com</string>
+    <string name="action_settings">标题</string>
 </resources>
